@@ -1,1 +1,1 @@
-Repositório com as minhas resoluções de algumas listas de exercícios.
+My personal collection of solved exercises and assignments from various courses
