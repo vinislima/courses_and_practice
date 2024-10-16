@@ -4,13 +4,14 @@
 #include <stdlib.h> // Para a função malloc e free
 
 // Função para verificar se um número é primo
-bool num_primo(int numero) {
-    if (numero <= 1)
-        return false; // Números menores ou iguais a 1 não são primos
+bool num_primo(int numero)
+{
+	if (numero <= 1)
+		return false; // Números menores ou iguais a 1 não são primos
 
-    int a = numero;
-    int b = 2;
-    bool primo = true;
+	int a = numero;
+	int b = 2;
+	bool primo = true;
 
     // Verifica se existe algum divisor até a raiz quadrada de 'numero'
     while (b * b <= a) {
